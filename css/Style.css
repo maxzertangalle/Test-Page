@@ -212,6 +212,7 @@ h3{
 
   .textarea-input{
       display: flex;
+      margin-left: 08px;
   }
 
   .submit-input{
