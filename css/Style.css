@@ -1,0 +1,282 @@
+/* ---------------------------------------------------TAG SELECTORS-------------------------------------------------------- */
+*{margin: 0%;}
+
+body{
+    text-align: center;
+    font-family:'Montserrat', sans-serif;}  
+
+
+h1{padding-top: 70px;
+font-size: 4rem;
+letter-spacing: 8px;
+}
+
+h2{padding-bottom: 15px;
+
+font-size: 2rem;
+letter-spacing: 8px;
+}
+
+h4{
+    margin-bottom: 25px;
+}
+span{text-decoration: underline;}
+
+h2,h1,h3,h4{
+    font-family: 'Montserrat', sans-serif;
+    color:#085370 ;
+}
+
+hr{
+    margin: 50px auto 0px auto;
+}
+
+p{
+ line-height: 2;   
+}
+
+
+
+/* ---------------------------------------------------Top-container-------------------------------------------------------- */
+
+.Top-container{
+    background-color: #98ACF8;
+  
+}
+
+
+.cloud-01{
+    position: absolute;
+    top: 10px;
+    right: 250px;
+}
+.Sun{
+  display: block;
+  margin: auto;
+  width: 120px;
+}
+
+.bottom-cloud{
+    position: absolute;
+   top: 290px;
+    left: 150px;
+}
+.mountain{
+    width: 35%;
+}   
+
+
+/* ---------------------------------------------------SECOND CONTAINER-------------------------------------------------------- */
+.Second-container{
+background-color:#F9F9F9;
+
+}
+
+h3{
+
+    font-size: 3rem;
+    
+}
+
+.logo{
+    margin-bottom: 50px;
+  }
+
+.Logo-intro{
+    width: 1000px;
+    margin: auto;
+   
+}
+
+
+
+/* ---------------------------------------------------THIRD CONTAINER-------------------------------------------------------- */
+.Third-container{
+    background-color:hsl(0, 100%, 99%);
+    }
+
+
+.Service-row{
+    width: 95%;
+    margin: 50px auto 50px auto ;
+    text-align: left;
+}
+
+.Service-row img{
+    width: 250px;
+    height: 180px;
+    border-style: inherit;
+    margin-right: 30px;
+}
+
+.WEB-01{
+    float: left;
+    margin-right: 30px;
+}
+
+.Clearfix-01{
+    clear: both;
+}
+
+.MEDIA{
+    float: right;
+    margin-left: 30px;
+}
+
+.SEO{
+    float: left;
+    margin-right: 30px;
+}
+
+.CLICK{
+    float: right;
+    margin-left: 30px;
+}
+
+/* ---------------------------------------------------FORTH CONTAINER-------------------------------------------------------- */
+.Forth-container{
+    background-color: rgb(248, 248, 248);
+   
+}    
+
+.Forthtext{
+    width: 40%;
+    margin: 30px auto 30px auto;
+}
+
+.btn{
+    text-decoration: none;
+    background-color:blue;
+    padding: 10px 25px 10px 25px;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    color:rgb(240, 237, 237); 
+    border-radius: 8px;
+}
+
+.btn:hover{
+    background-image:linear-gradient(to bottom, #30e3cb, #2bc4ad);
+}
+
+
+/* ---------------------------------------------------FOOTER CONTAINER-------------------------------------------------------- */
+.Footer{
+    background-color: #0081ed;
+    padding: 60px 0 60px 0;  
+}
+
+.Footer a{
+    text-decoration: none;
+    margin: 0 20px 40px 20px;
+    color: #dae9e0;
+}
+
+.Footer a:hover{
+    color:white;
+}
+
+/* ---------------------------------------------------Contact CONTAINER-------------------------------------------------------- */  
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Style inputs */
+  input[type=text], select {
+    width: 80%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+  .contact-form {
+      text-align: left;
+  }
+
+  .textarea-input{
+      display: flex;
+  }
+
+  .submit-input{
+      text-align: right;
+      margin: 20px;
+  }
+  
+  /* Style the container/contact section */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+
+  .row{
+      width: 100%;
+  }
+  
+  /* Create two columns that float next to eachother */
+  /* .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  } */
+
+
+
+  .column{
+      width: 50%;
+      padding: 40px 20px;
+  }
+
+  .column img{
+      width: 100%;
+  }
+
+  .column-left{
+      float: left
+  }
+
+  .column-right{
+      float: right;
+  }
+
+  textarea{
+      width: 80%;
+  }
+
+  label{
+      display:inline-block;
+      width: 15%;
+  }
+  
+  /* Clear floats after the columns */
+  /* .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  } */
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
